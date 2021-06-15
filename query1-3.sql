@@ -1,4 +1,4 @@
-SELECT first_name,last_name,rental_date,rental_id
+SELECT first_name,last_name,rental_date
 from rental
 INNER JOIN customer
 ON rental.customer_id = customer.customer_id
