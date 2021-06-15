@@ -3,7 +3,7 @@ from rental
 INNER JOIN customer
 ON rental.customer_id = customer.customer_id
 where return_date is NULL
-ORDER BY rental_date
+ORDER BY rental_date DESC
 LIMIT 1,1;
 
 select *from rental
