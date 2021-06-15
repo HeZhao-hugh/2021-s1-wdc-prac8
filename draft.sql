@@ -1,0 +1,1 @@
+ SELECT Count(film_id) from film;
